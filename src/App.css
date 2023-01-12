@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+
+/* .............................  */
+/* Navigation bar */
+/* .............................  */
+
+nav{
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav-img{
+    margin-right: 7px;
+    width: 24px;
+    height: 24px;
+}
+.nav-p{
+    font-weight: 500;
+    font-size: 14.46px;
+}
+
+/* .............................  */
+/* travel card  */
+/* .............................  */
+
+.tc{
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    width: fit-content;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+.tc-img{
+    height: 188px;
+    border-radius: 10px;
+}
+.tc-textC{
+    padding: 19px;
+}
+.tc-location-icon{
+    width: 7px;
+    height: 9.55px;
+    margin-right: 4px;
+}
+.tc-location{
+    letter-spacing: 0.17em;
+    margin-right: 12px;
+    font-size: 12.24px;
+}
+.tc-gmap{
+    font-weight: 400;
+    font-size: 12.24px;
+    color: #918E9B;
+}
+.tc-h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.tc-date{
+    font-weight: 700;
+    font-size: 12.24px;
+    margin-bottom: 9px;
+}
+.tc-p{
+    font-weight: 400;
+    font-size: 12.24px;
+    letter-spacing: 0.5px;
+    width: 426px;
+    height: 45px;
+    overflow: hidden;
+}
